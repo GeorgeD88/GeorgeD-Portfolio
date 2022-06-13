@@ -246,6 +246,14 @@ a {
   color: #64a19d;
   text-decoration: underline;
 }
+
+/* a[target="_blank"]::after */
+#link_icon::after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+  margin: 0 3px 0 5px;
+  filter: brightness(0) invert(1);
+}
+
 a:hover {
   color: #50817e;
 }
@@ -4177,6 +4185,7 @@ textarea.form-control-lg {
 .navbar-nav {
   display: flex;
   flex-direction: column;
+  /* justify-content: space-between; */
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
