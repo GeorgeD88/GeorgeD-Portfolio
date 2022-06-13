@@ -4057,6 +4057,16 @@ textarea.form-control-lg {
   border-top-right-radius: 0;
 }
 
+#centeringNav {
+  /* for centering the nav options */
+  margin-left:auto;
+  margin-right:auto;
+}
+/* #centeringNav.a {
+  padding-left: 6rem;
+  padding-right: 6rem;
+} */
+
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -4185,7 +4195,6 @@ textarea.form-control-lg {
 .navbar-nav {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -11526,7 +11535,8 @@ body {
   }
   #mainNav .nav-link {
     transition: none;
-    padding: 2rem 1.5rem;
+    font-weight: 650;  /* added by me (400) */
+    padding: 2rem 4rem;  /* 1.5rem -> 4rem */
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:hover {
@@ -11541,9 +11551,10 @@ body {
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
   }
-  #mainNav.navbar-shrink .nav-link {
+  #mainNav.navbar-shrink .nav-link { /* asdohsadjahdsiuh */
     color: #000;
-    padding: 1.5rem 1.5rem 1.25rem;
+    font-weight: 400;  /* keeps weight unchanged when navbar shrinks */
+    padding: 1.5rem 4rem 1.25rem;  /* 1.5rem -> 4rem */
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
