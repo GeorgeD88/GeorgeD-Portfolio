@@ -16,8 +16,9 @@ window.addEventListener('DOMContentLoaded', event => {
             return;
         }
         // if (window.scrollY === 0) {
-        // + parseInt(getComputedStyle(document.getElementById('mainNav')).height)
-        if (window.scrollY <= parseInt(getComputedStyle(document.getElementsByClassName('masthead')[0]).height)*.8) {
+        // + *.8
+        if (window.scrollY <= parseInt(getComputedStyle(document.getElementsByClassName('masthead')[0]).height)*.9
+                            - parseInt(getComputedStyle(document.getElementById('mainNav')).height)) {
             navbarCollapsible.classList.remove('navbar-shrink')
         } else {
             navbarCollapsible.classList.add('navbar-shrink')
