@@ -7974,6 +7974,23 @@ textarea.form-control-lg {
   color: #6c757d !important;
 }
 
+/* glass navbar effect from Samer */
+.glass {
+  background: transparent;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blue(8px);
+}
+
+/* used to make regular text bigger (orig: 16px) */
+.enlarge-text {
+  font-size: 18px;
+}
+
+/* used to make project text bigger (orig: 14.4px) */
+.enlarge-p-text {
+  font-size: 16px;
+}
+
 .text-black-50 {
   --bs-text-opacity: 1;
   color: rgba(0, 0, 0, 0.5) !important;
