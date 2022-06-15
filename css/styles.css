@@ -11553,7 +11553,7 @@ body {
   #mainNav .nav-link {
     transition: none;
     font-weight: 650;  /* added by me (400) */
-    padding: 2rem 4rem;  /* 1.5rem -> 4rem */
+    padding: 1.5rem 4rem;  /* 1.5rem -> 4rem */
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:hover {
@@ -11647,7 +11647,7 @@ body {
 }
 
 .about-section {
-  padding-top: 5rem;
+  padding-top: 8rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
