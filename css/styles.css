@@ -7978,7 +7978,7 @@ textarea.form-control-lg {
 .glass {
   background: transparent;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
-  backdrop-filter: blue(8px);
+  backdrop-filter: blur(8px);
 }
 
 /* used to make regular text bigger (orig: 16px) */
