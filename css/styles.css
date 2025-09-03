@@ -11728,15 +11728,19 @@ body {
 }
 .contact-section .social a {
   text-align: center;
-  height: 3rem;
-  width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
-  line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  /* height: 3rem;
+  width: 3rem; */
+  height: 4.2rem;
+  width: 4.2rem;
+  /* background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.3); */
+  background: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 30%;
+  line-height: 4.2rem;
 }
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
 }
 .contact-section .social a:active {
   color: #fff;
